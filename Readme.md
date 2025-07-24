@@ -35,6 +35,27 @@ Evaluated model performance using:
 ### Outcome
 Successfully built and evaluated a machine learning pipeline using `RandomizedSearchCV` and custom CSV input with consistent, high-performing results.
 
+# ICP 6: Feedforward Neural Network with Keras
+
+To build a deep feedforward neural network using the **Keras Sequential API** on the **MNIST dataset**, and experiment with:
+- Hidden layers and neuron configurations
+- Activation functions (`ReLU`, `tanh`, `sigmoid`)
+- Optimizers (`adam`, `sgd`, `rmsprop`)
+- Techniques like Batch Normalization and Dropout
+### Optimizer Comparison
+| Optimizer | Test Accuracy |
+|----------|----------------|
+| adam     | 98.22%         |
+| sgd      | 97.23%         |
+| rmsprop  | **98.54%**     |
+
+### Final Optimized Model
+- Layers: 5+ hidden layers with `ReLU`
+- Enhancements:
+  - `BatchNormalization` for stable training
+  - `Dropout (0.1)` to prevent overfitting
+- Trained for 30+ epochs
+- **Final Test Accuracy: 98.54%**
 
 
 ## Student Information
